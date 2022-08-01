@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages - Blog for OI
 
-## Markdown
+## Markdown(这个表格不能正常显示，可以不管)
 |Markdown|————————————————|Preview|
 |:--:|:--:|:--:|
 |\~\~text\~\~||~~text~~|
