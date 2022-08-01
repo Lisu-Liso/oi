@@ -2,7 +2,7 @@
 
 ## 题目：油滴扩展
 
-https://www.luogu.com.cn/problem/P1378
+[Link](https://www.luogu.com.cn/problem/P1378)
 
 ### 涉及算法/考点：
 全排列
