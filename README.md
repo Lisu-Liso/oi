@@ -2,7 +2,7 @@
 
 ## Markdown
 |Markdown|————————————————|Preview|
-|:--:|---|:--:|
+|:--:|:--:|:--:|
 |\~\~text\~\~||~~text~~|
 |\*text\*||*text*|
 |\*\*text\*\*||**text**|
@@ -10,13 +10,18 @@
 |\`text(code)\`||`text(code)`|
 |H\<sub>2\</sub>O||H<sub>2</sub>O|
 |O(n\<sup>2\</sup>)||O(n<sup>2</sup>)|
+|\$H_2O\$|（数学公式）|$H_2O$|
+|\$O(n^2)\$|（数学公式）|$O(n^2)$|
 |\-\-\-||分割线，表格不支持显示|
 |\# text||一级标题（最大）|
 |\#\#\#\#\#\# text||六级标题（最小）|
 |\- text||无序列表|
 |\+ text||- - -|
-
-\longrightarrow
+|\* text||- - -|
+|箭头||[Link](https://blog.csdn.net/Ricky2007/article/details/109455046)|
+|\$\neq\$|（数学公式）|$\neq$|
+|\$\geq\$|（数学公式）|$\geq$|
+|\$\leq\$|（数学公式）|$\leq$|
 
 
 ---
