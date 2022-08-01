@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+## Welcome to GitHub Pages - Blog for OI
 
-You can use the [editor on GitHub](https://github.com/NESGUIAM/oi/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## 题目：油滴扩展
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+https://www.luogu.com.cn/problem/P1378
 
-### Markdown
+### 涉及算法/考点：
+全排列
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### 解题思路：
+全排列枚举所有顺序，计算。n很小，全排列复杂度并不会超时，不需要优化
+### 解题关键点：
+摆放油滴不同的顺序会产生不同的结果，需要列举出全部可能性再逐一比较
+### 易错点/出现的错误总结：
+1. 计算半径时，可能出现负数，要赋值为0
+2. π的取值要到后六位以上（r的上限为$10^6$,$πr^2$要保留整数位）
+3. 摆放的第i个油滴的下标并不是[i]
+### 通用技巧总结：
+1. abs函数可以获取绝对值
+2. sqrt函数可以取根号值
+### 类比题目：
 
-```markdown
-Syntax highlighted code block
+全排列
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/NESGUIAM/oi/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+------------
