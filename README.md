@@ -54,7 +54,7 @@
 
 ---
 
-## 2. 题目：[CSP-J2019 江西] 次大值(max)
+## 2. 题目：[CSP-J2019 江西] 次大值(考试max)
 
 [Link](https://www.luogu.com.cn/problem/P5682)
 
