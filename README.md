@@ -1,6 +1,9 @@
 ## Welcome to GitHub Pages - Blog for OI
 
-## Markdown(这个表格不能正常显示，可以不管)
+## 可以选择查看更正常的显示（需要FastGithub）
+[Link](https://github.com/NESGUIAM/oi)
+
+## Markdown（这个表格在Github Pages不能正常显示，可以不管）
 |Markdown|————————————————|Preview|
 |:--:|:--:|:--:|
 |\~\~text\~\~||~~text~~|
