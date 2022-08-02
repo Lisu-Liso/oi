@@ -25,7 +25,17 @@
 |\$\neq\$|（数学公式）|$\neq$|
 |\$\geq\$|（数学公式）|$\geq$|
 |\$\leq\$|（数学公式）|$\leq$|
+|\`\`\`cpp<br>text<br>\`\`\`||Example 1|
 
++ **Example 1**
+```cpp
+#include <iostream>
+using namespace std;
+int main(){
+    // Code
+    return 0;
+}
+```
 
 ---
 
