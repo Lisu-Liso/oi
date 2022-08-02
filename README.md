@@ -1,8 +1,7 @@
 ## Welcome to GitHub Pages - Blog for OI
 
 ## 可以选择查看更正常的显示（需要FastGithub）
-<!-- [Link](https://github.com/NESGUIAM/oi) -->
-<a herf="https://github.com/NESGUIAM/oi" target="_blank">Link</a>
+[Link](https://github.com/NESGUIAM/oi)
 
 ## Markdown（这个表格在Github Pages不能正常显示，可以不管,是用于记Markdown的语法的）
 |Markdown|————————————————|Preview|
