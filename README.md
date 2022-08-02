@@ -26,6 +26,8 @@
 |\$\geq\$|（数学公式）|$\geq$|
 |\$\leq\$|（数学公式）|$\leq$|
 |\`\`\`cpp<br>text<br>\`\`\`||Example 1|
+|\[Link\]\(https://example.com\)||[Link](https://example.com)
+|\!\[Example imagine\]\(https://raw.githubusercontent.com/NESGUIAM/OI/main/test_img.png\)||![Example imagine](https://raw.githubusercontent.com/NESGUIAM/OI/main/test_img.png)|
 
 + **Example 1**
 ```cpp
