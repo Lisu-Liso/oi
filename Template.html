@@ -1,30 +1,33 @@
-<h2 id="1-题目油滴扩展">1. 题目：油滴扩展</h2>
+<h3 id="涉及算法考点-6">涉及算法/考点：</h3>
+<ol><p>找规律</p></ol>
 
-<p><a href="https://www.luogu.com.cn/problem/P1378">Link</a></p>
-
-<hr />
-
-<h3 id="涉及算法考点">涉及算法/考点：</h3>
-<ol><p>全排列</p></ol>
-
-<h3 id="解题思路">解题思路：</h3>
-<ol><p>全排列枚举所有顺序，计算。<em>n</em>很小，全排列复杂度并不会超时，不需要优化</p></ol>
-<h3 id="解题关键点">解题关键点：</h3>
-<ol><p>摆放油滴不同的顺序会产生不同的结果，需要列举出全部可能性再逐一比较</p></ol>
-<h3 id="易错点出现的错误总结">易错点/出现的错误总结：</h3>
+<h3 id="解题思路-6">解题思路：</h3>
 <ol>
-    <li>计算半径时，可能出现负数，要赋值为<em>0</em></li>
-    <li><em>π</em>的取值要到后六位以上（r的上限为<em>10<sup>6</sup></em>,<em>πr<sup>2</sup></em>要保留整数位）</li>
-    <li>摆放的第<em>i</em>个油滴的下标并不是<em>[i]</em></li>
-</ol>
-<h3 id="通用技巧总结">通用技巧总结：</h3>
-<ol>
-    <li><em>abs</em> 函数可以获取绝对值</li>
-    <li><em>sqrt</em> 函数可以取根号值</li>
-</ol>
-<h3 id="类比题目">类比题目：</h3>
+    <li>找规律，然后发现一个<strong><font color="red">重要的</font></strong>规律:</li>
     <ul>
-        <li>全排列</li>
+        <li>时间复杂度，最快O(<em>1</em>)，最慢O(<em>log n</em>)</li>
     </ul>
+    <ol>
+        <li>如果当前位置小于<em>strlen(str)</em>，那么返回str[当前值]</li>
+        <li>用位运算算出当前位置翻转的分界点</li>
+        <li>用当前位置减去分界点的后一位，dfs(结果)</li>
+    </ol>
+</ol>
+<h3 id="解题关键点-6">解题关键点：</h3>
+<ol><p>递归（找规律）</p></ol>
+
+<h3 id="易错点出现的错误总结-6">易错点/出现的错误总结：</h3>
+<ol>
+    <li>找规律不好找(一个半小时)</li>
+</ol>
+<h3 id="通用技巧总结-6">通用技巧总结：</h3>
+<ol>
+    <li>递归</li>
+    <li>找规律</li>
+</ol>
+<h3 id="类比题目-6">类比题目：</h3>
+<ul>
+    <li><a href="https://www.luogu.com.cn/problem/P5657" target="_blank"><font color="black">P5657 [CSP-S2019] 格雷码</font><font color="darkgrey">(考试code)</font></a></li>
+</ul>
 
 <hr />
