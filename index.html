@@ -227,7 +227,7 @@
 
             <hr />
 
-            <h2 id="2-题目csp-j2019-江西-次大值考试max">2. 题目：[CSP-J2019 江西] 次大值<font color=darkgrey>(考试max)</font></h2>
+            <h2 id="2-题目csp-j2019-江西-次大值考试max">2. 题目：[CSP-J2019 江西] 次大值<font color="darkgrey">(考试max)</font></h2>
 
             <p><a href="https://www.luogu.com.cn/problem/P5682" target="_blank">Link</a></p>
 
@@ -256,7 +256,7 @@
 
             <hr />
 
-            <h2 id="3-题目NOIP2018-普及组-对称二叉树">3. 题目：[NOIP2018 普及组] 对称二叉树<font color=darkgrey>(考试tree)</font></h2>
+            <h2 id="3-题目NOIP2018-普及组-对称二叉树">3. 题目：[NOIP2018 普及组] 对称二叉树<font color="darkgrey">(考试tree)</font></h2>
 
             <p><a href="https://www.luogu.com.cn/problem/P5018" target="_blank">Link</a></p>
 
@@ -286,7 +286,7 @@
 
             <hr />
 
-            <h2 id="4-题目P2820-局域网">4. 题目：P2820 局域网<font color=darkgrey>(夏令营net)</font></h2>
+            <h2 id="4-题目P2820-局域网">4. 题目：P2820 局域网<font color="darkgrey">(夏令营net)</font></h2>
 
             <p><a href="https://www.luogu.com.cn/problem/P2820" target="_blank">Link</a></p>
 
@@ -315,7 +315,8 @@
             </ul>
 
             <hr />
-            <h2 id="5-题目P5657-[CSP-S2019]-格雷码">5. 题目：P5657 [CSP-S2019] 格雷码<font color=darkgrey>(考试code)</font></h2>
+
+            <h2 id="5-题目P5657-[CSP-S2019]-格雷码">5. 题目：P5657 [CSP-S2019] 格雷码<font color="darkgrey">(考试code)</font></h2>
 
             <p><a href="https://www.luogu.com.cn/problem/P5657" target="_blank">Link</a></p>
 
@@ -344,7 +345,47 @@
             </ol>
             <h3 id="类比题目-5">类比题目：</h3>
             <ul>
-                <li><a href="https://www.luogu.com.cn/problem/U235258" target="_blank">密码</a></li>
+                <li><a href="https://www.luogu.com.cn/problem/U235258" target="_blank">U235258 密码<font color="darkgrey">(考试fst)</font></a></li>
+            </ul>
+
+            <hr />
+
+            <h2 id="6-题目U235258-密码">6. 题目：U235258 密码<font color="darkgrey">(考试fst)</font></h2>
+
+            <p><a href="https://www.luogu.com.cn/problem/U235258" target="_blank">Link</a></p>
+            <font color="darkgrey">不知道为啥还一次过了</font>
+            <hr />
+
+            <h3 id="涉及算法考点-6">涉及算法/考点：</h3>
+            <ol><p>找规律</p></ol>
+
+            <h3 id="解题思路-6">解题思路：</h3>
+            <ol>
+                <li>找规律，然后发现一个<strong><font color="red">重要的</font></strong>规律:</li>
+                <ul>
+                    <li>时间复杂度，最快O(<em>1</em>)，最慢O(<em>log n</em>)</li>
+                </ul>
+                <ol>
+                    <li>如果当前位置小于<em>strlen(str)</em>，那么返回str[当前值]</li>
+                    <li>用位运算算出当前位置翻转的分界点</li>
+                    <li>用当前位置减去分界点的后一位，dfs(结果)</li>
+                </ol>
+            </ol>
+            <h3 id="解题关键点-6">解题关键点：</h3>
+            <ol><p>递归（找规律）</p></ol>
+
+            <h3 id="易错点出现的错误总结-6">易错点/出现的错误总结：</h3>
+            <ol>
+                <li>找规律不好找</li>
+            </ol>
+            <h3 id="通用技巧总结-6">通用技巧总结：</h3>
+            <ol>
+                <li>递归</li>
+                <li>找规律</li>
+            </ol>
+            <h3 id="类比题目-6">类比题目：</h3>
+            <ul>
+                <li><a href="https://www.luogu.com.cn/problem/P5657" target="_blank"><font color="black">P5657 [CSP-S2019] 格雷码</font><font color="darkgrey">(考试code)</font></a></li>
             </ul>
 
             <hr />
