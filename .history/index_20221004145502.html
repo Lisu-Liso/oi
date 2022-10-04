@@ -74,7 +74,7 @@
 
         <main id="content" class="main-content" role="main">
 
-            <h1>Update 2022年10月4日 14点58分：</h1>
+            <h1>Update 2022年10月4日14点52分：</h1>
             <ul>
                 <li>修复了一些语法错误</li>
                 <li>完善了链接样式与覆盖范围</li>
@@ -86,7 +86,6 @@
                 <li>增加细节</li>
                 <li>优化交互效果</li>
                 <li>展示题目颜色</li>
-                <li>更改表达式颜色</li>
             </ul>
             <hr>
             <h2 id="已不再使用Markdown进行博客编写，进而使用HTML，表格可以正常查看">已不再使用Markdown进行博客编写，使用HTML，表格可以正常查看</h2>
@@ -239,7 +238,7 @@
             <h3 id="解题思路-2">解题思路：</h3>
             <ol><p>对<font color="red">暴力</font>进行优化</p></ol>
             <h3 id="解题关键点-2">解题关键点：</h3>
-            <ol><p>结果只与 <font color="#AB78CA">Max<sub>1</sub>%Max<sub>2</sub></font> 和 <font color="#AB78CA">Max<sub>3</sub></font> 有关，取最大值即为结果</p></ol>
+            <ol><p>结果只与 <font color="#AB78CA">Max<sub>1</sub>%Max<sub>2</sub></font> 和 <font color="#AB78CA"><em>Max<sub>3</sub></em></font> 有关，取最大值即为结果</p></ol>
 
             <h3 id="易错点出现的错误总结-2">易错点/出现的错误总结：</h3>
             <ol>
@@ -350,11 +349,11 @@
             <ol>
                 <li>找规律，然后发现一个<strong><font color="red">重要的</font></strong>规律:</li>
                 <ul>
-                    <li>时间复杂度，最快<font color="#AB78CA">O(1)</font>，最慢<font color="#AB78CA">O(log n)</font></li>
+                    <li>时间复杂度，最快O(<em>1</em>)，最慢O(<em>log n</em>)</li>
                     <ol>
-                        <li>如果当前位置小于<font color="#AB78CA">strlen(str)</font>，那么返回<font color="#AB78CA">str[当前值]</font></li>
+                        <li>如果当前位置小于<em>strlen(str)</em>，那么返回str[当前值]</li>
                         <li>用位运算算出当前位置翻转的分界点</li>
-                        <li>用当前位置减去分界点的后一位，<font>dfs(结果)</font></li>
+                        <li>用当前位置减去分界点的后一位，dfs(结果)</li>
                     </ol>
                 </ul>
             </ol>
