@@ -3,25 +3,25 @@
 <html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <style>
-    #clip_copy,#web-copy-btn-wk{
-        background:#54aae9 !important
-    }
-    a{
-        text-decoration: none !important
-    }
-    a:hover{
-        text-decoration: none !important
-    }
-    a:hover{
-        background-color: #7eeed975;
-    }
-    a:hover{
-        transition: color 0.5s, background-color 0.5s, border-color 0.5s ;
-    }
-    a{
-        transition: color 0.5s, background-color 0.5s, border-color 0.5s ;
-    }
-</style><!-- 21,153,87 -->
+#clip_copy,#web-copy-btn-wk{
+    background:#54aae9 !important
+}
+a{
+    text-decoration: none !important
+}
+a:hover{
+    text-decoration: none !important
+}
+a:hover{
+    background-color: aqua !important
+}
+a:hover{
+    transition: color 1s, background-color 1s, border-color 1s ;
+}
+a{
+    transition: color 1s, background-color 1s, border-color 1s ;
+}
+</style>
 
 <!-- ................ -->
         <!-- Begin Jekyll SEO tag v2.8.0 -->
@@ -74,17 +74,16 @@
 
         <main id="content" class="main-content" role="main">
 
-            <h1>Update 2022年10月4日14点48分：</h1>
+            <h1>Update 2022年10月4日10点15分：</h1>
             <ul>
                 <li>修复了一些语法错误</li>
                 <li>完善了链接样式与覆盖范围</li>
                 <li>规范语言表述</li>
-                <li>本地化</li>
+                <li>离线化</li>
                 <li>优化代码结构</li>
                 <li>调整代码高亮样式</li>
                 <li>提高浏览体验（隐蔽链接）</li>
                 <li>增加细节</li>
-                <li>优化交互效果</li>
             </ul>
             <hr>
             <h2 id="已不再使用Markdown进行博客编写，进而使用HTML，表格可以正常查看">已不再使用Markdown进行博客编写，使用HTML，表格可以正常查看</h2>
@@ -202,25 +201,25 @@
             <a href="https://github.com/dotnetcore/fastgithub/releases" target="_blank"><font color="#606C71">FastGithub下载链接</font></a>
             <hr>
 
-            <h2 id="1-题目P1378油滴扩展">1. 题目：<a href="https://www.luogu.com.cn/problem/P1378" target="_blank"><font color="#52C41A">P1378 油滴扩展</font></a></h2>
+            <h2 id="1-题目P1378油滴扩展">1. 题目：<a href="https://www.luogu.com.cn/problem/P1378" target="_blank"><font color="#52A16D">P1378 油滴扩展</font></a></h2>
 
             <h3 id="涉及算法考点-1">涉及算法/考点：</h3>
             <ol><p><a href="https://oi-wiki.org/lang/csl/algorithm/" target="_blank"><font color="#606C71">全排列</font></a></p></ol>
 
             <h3 id="解题思路-1">解题思路：</h3>
-            <ol><p><a href="https://oi-wiki.org/lang/csl/algorithm/" target="_blank"><font color="#606C71">全排列</font></a>枚举所有顺序，计算。n很小，全排列复杂度并不会超时，不需要优化</p></ol>
+            <ol><p><a href="https://oi-wiki.org/lang/csl/algorithm/" target="_blank"><font color="#606C71">全排列</font></a>枚举所有顺序，计算。<em>n</em>很小，全排列复杂度并不会超时，不需要优化</p></ol>
             <h3 id="解题关键点-1">解题关键点：</h3>
             <ol><p>摆放油滴不同的顺序会产生不同的结果，需要列举出全部可能性再逐一比较</p></ol>
             <h3 id="易错点出现的错误总结-1">易错点/出现的错误总结：</h3>
             <ol>
-                <li>计算半径时，可能出现负数，要赋值为<font color="#AB78CA">0</font></li>
-                <li><font color="#AB78CA">π</font>的取值要到后六位以上（<font color="#AB78CA">r</font>的上限为<font color="#AB78CA">10<sup>6</sup></font>,<font color="#AB78CA">πr<sup>2</sup></font>要保留整数位）</li>
-                <li>摆放的第i个油滴的下标并不是[<font color="#5C6166">i</font>]</li>
+                <li>计算半径时，可能出现负数，要赋值为<em>0</em></li>
+                <li><em>π</em>的取值要到后六位以上（r的上限为<em>10<sup>6</sup></em>,<em>πr<sup>2</sup></em>要保留整数位）</li>
+                <li>摆放的第<em>i</em>个油滴的下标并不是<em>[i]</em></li>
             </ol>
             <h3 id="通用技巧总结-1">通用技巧总结：</h3>
             <ol>
-                <li><font color="#FFAB43">abs</font>() 函数可以获取绝对值</li>
-                <li><font color="#FFAB43">sqrt</font>() 函数可以取根号值</li>
+                <li><em>abs</em> 函数可以获取绝对值</li>
+                <li><em>sqrt</em> 函数可以取根号值</li>
             </ol>
             <h3 id="类比题目-1">类比题目：</h3>
                 <ul>
@@ -229,7 +228,7 @@
 
             <hr>
 
-            <h2 id="2-题目P5682csp-j2019-江西-次大值考试max">2. 题目：<a href="https://www.luogu.com.cn/problem/P5682" target="_blank"><font color="#FFC116">P5682 [CSP-J2019 江西] 次大值</font><font color="darkgrey">(考试max)</font></a></h2>
+            <h2 id="2-题目P5682csp-j2019-江西-次大值考试max">2. 题目：<a href="https://www.luogu.com.cn/problem/P5682" target="_blank"><font color="#52A16D">P5682 [CSP-J2019 江西] 次大值</font><font color="darkgrey">(考试max)</font></a></h2>
 
             <h3 id="涉及算法考点-2">涉及算法/考点：</h3>
             <ol><p>数学<font color="red">简单</font>推理与优化</p></ol>
@@ -237,11 +236,11 @@
             <h3 id="解题思路-2">解题思路：</h3>
             <ol><p>对<font color="red">暴力</font>进行优化</p></ol>
             <h3 id="解题关键点-2">解题关键点：</h3>
-            <ol><p>结果只与 <font color="#AB78CA"><em>Max<sub>1</sub>%Max<sub>2</sub></em></font> 和 <font color="#AB78CA"><em>Max<sub>3</sub></em></font> 有关，取最大值即为结果</p></ol>
+            <ol><p>结果只与 <font color="auqe"><em>Max<sub>1</sub>%Max<sub>2</sub></em></font> 和 <em>Max<sub>3</sub></em> 有关，取最大值即为结果</p></ol>
 
             <h3 id="易错点出现的错误总结-2">易错点/出现的错误总结：</h3>
             <ol>
-                <li>在分析时，<font color="red">很容易</font>以为答案就是原数组第三大的数</li>
+                <li>在分析时，容易以为答案就是原数组第三大的数</li>
             </ol>
             <h3 id="通用技巧总结-2">通用技巧总结：</h3>
             <ol>
@@ -254,7 +253,7 @@
 
             <hr>
 
-            <h2 id="3-题目P5018NOIP2018-普及组-对称二叉树">3. 题目：<a href="https://www.luogu.com.cn/problem/P5018" target="_blank"><font color="#52C41A">P5018 [NOIP2018 普及组] 对称二叉树</font><font color="darkgrey">(考试tree)</font></a></h2>
+            <h2 id="3-题目P5018NOIP2018-普及组-对称二叉树">3. 题目：<a href="https://www.luogu.com.cn/problem/P5018" target="_blank"><font color="#52A16D">P5018 [NOIP2018 普及组] 对称二叉树</font><font color="darkgrey">(考试tree)</font></a></h2>
 
             <h3 id="涉及算法考点-3">涉及算法/考点：</h3>
             <ol><p><strong><font color="red">暴力</font></strong>+记忆化优化</p></ol>
@@ -280,7 +279,7 @@
 
             <hr>
 
-            <h2 id="4-题目P2820-局域网">4. 题目：<a href="https://www.luogu.com.cn/problem/P2820" target="_blank"><font color="#FFC116">P2820 局域网</font><font color="darkgrey">(夏令营net)</font></a></h2>
+            <h2 id="4-题目P2820-局域网">4. 题目：<a href="https://www.luogu.com.cn/problem/P2820" target="_blank"><font color="#52A16D">P2820 局域网</font><font color="darkgrey">(夏令营net)</font></a></h2>
 
             <h3 id="涉及算法考点-4">涉及算法/考点：</h3>
             <ol><p><a href="https://oi-wiki.org/graph/mst/" target="_blank"><font color="#606C71">最小生成树</font></a></p></ol>
@@ -301,12 +300,12 @@
             </ol>
             <h3 id="类比题目-4">类比题目：</h3>
             <ul>
-                <li><a href="https://www.luogu.com.cn/problem/P3366" target="_blank"><font color="#F39C11">P3366 【模板】最小生成树</font></a></li>
+                <li><a href="https://www.luogu.com.cn/problem/P3366" target="_blank"><font color="#606C71">P3366 【模板】最小生成树</font></a></li>
             </ul>
 
             <hr>
 
-            <h2 id="5-题目P5657-[CSP-S2019]-格雷码">5. 题目：<a href="https://www.luogu.com.cn/problem/P5657" target="_blank"><font color="#F39C11">P5657 [CSP-S2019] 格雷码</font><font color="darkgrey">(考试code)</font></a></h2>
+            <h2 id="5-题目P5657-[CSP-S2019]-格雷码">5. 题目：<a href="https://www.luogu.com.cn/problem/P5657" target="_blank"><font color="#52A16D">P5657 [CSP-S2019] 格雷码</font><font color="darkgrey">(考试code)</font></a></h2>
 
             <h3 id="涉及算法考点-5">涉及算法/考点：</h3>
             <ol><p>暴力优化</p></ol>
@@ -331,12 +330,12 @@
             </ol>
             <h3 id="类比题目-5">类比题目：</h3>
             <ul>
-                <li><a href="https://www.luogu.com.cn/problem/U235258" target="_blank"><font color="#BFBFBF">U235258 密码</font><font color="darkgrey">(考试fst)</font></a></li>
+                <li><a href="https://www.luogu.com.cn/problem/U235258" target="_blank"><font color="#606C71">U235258 密码</font><font color="darkgrey">(考试fst)</font></a></li>
             </ul>
 
             <hr>
 
-            <h2 id="6-题目U235258-密码">6. 题目：<a href="https://www.luogu.com.cn/problem/U235258" target="_blank"><font color="#BFBFBF">U235258 密码</font><font color="darkgrey">(考试fst)</font></a></h2>
+            <h2 id="6-题目U235258-密码">6. 题目：<a href="https://www.luogu.com.cn/problem/U235258" target="_blank"><font color="#52A16D">U235258 密码</font><font color="darkgrey">(考试fst)</font></a></h2>
 
             <font color="darkgrey">不知道为啥还一次过了</font>
             <hr>
@@ -370,7 +369,7 @@
             </ol>
             <h3 id="类比题目-6">类比题目：</h3>
             <ul>
-                <li><a href="https://www.luogu.com.cn/problem/P5657" target="_blank"><font color="#F39C11">P5657 [CSP-S2019] 格雷码</font><font color="darkgrey">(考试code)</font></a></li>
+                <li><a href="https://www.luogu.com.cn/problem/P5657" target="_blank"><font color="#606C71">P5657 [CSP-S2019] 格雷码</font><font color="darkgrey">(考试code)</font></a></li>
             </ul>
 
             <hr>
